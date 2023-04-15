@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/indexbg.jpg);
+}
+
+.content{
+    text-align: center;
+}
+
+.news{
+    margin-top:20px;
+    border:1px solid gray;
+    background: rgba(255, 255, 255, 0.541);
+}
+
+.bold{
+    font-weight: bold;
+}

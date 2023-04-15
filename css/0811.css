@@ -1,0 +1,16 @@
+#flask1{
+    position: absolute;
+    top: 50px;
+    transform: rotate(-20deg);
+    left: -10px;
+    width: 60px;
+    z-index:10;
+}
+
+#flask2{
+    position: absolute;
+    width: 60px;
+    top: 50px;
+    z-index: 11;
+    left: 30px;
+}

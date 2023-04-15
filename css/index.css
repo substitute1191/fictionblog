@@ -1,0 +1,332 @@
+body{
+    padding: 0;
+    margin:0;
+    background-image: url(../images/stars.jpg);
+}
+
+.hide{
+    display:none;
+}
+
+
+form{
+    margin-bottom:10px;
+}
+
+.container{
+    background: url(../images/container.jpg);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    padding-top:10px;
+}
+
+.sakura5{
+    background: url(../images/container2.jpg);
+}
+
+
+.breadcrumb {
+    padding:0 0 0 3px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background:transparent;
+}
+
+.breadcrumb li:not(:last-of-type)::after {
+    content: "›";
+    margin: 0 .6em; /* 記号の左右の余白 */
+    color: #777; /* 記号の色 */
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+
+.wrapper{
+    display:flex;
+    margin-bottom:10px;
+}
+
+.hint{
+    color:rgba(239, 241, 247, 0.01);
+    font-size:5px;
+}
+
+.hint::selection{
+    color:rgba(0, 0, 0, 1);
+}
+
+.hintp{
+    margin-bottom:-5px;
+}
+
+.room{
+    position:absolute;
+    background-color:white;
+    padding:2px;
+    right:-55px;
+    border:1px gray solid;
+    border-left:4px gray solid;
+    padding-right:3px;
+}
+
+.room4{
+    position:absolute;
+    background-color:white;
+    padding:2px;
+    right:-70px;
+    border:1px gray solid;
+    border-left:4px gray solid;
+    padding-right:3px;
+}
+
+
+.title{
+    color:red;
+    width:100%;
+    margin:0 auto;
+    height:150px;
+    box-sizing:border-box;
+    background-image:url(../images/header.png);
+    background-size: 100% 100%;
+}
+
+.title-wrapper{
+    position:relative;
+    margin-bottom:5px;
+}
+
+.neko{
+    position: absolute;
+    top: 1000px;
+    width: 30px;
+    left: 1800px;
+    margin: 50px;
+}
+
+.sbtitle-area{
+    position:relative;
+    height:50px;
+    color:white;
+    background: linear-gradient(rgb(20, 20, 238),skyblue);
+    text-align: center;
+}
+
+.sbtitle{
+    padding-top:12px;
+}
+
+.sidebar{
+    width:20%;
+    box-sizing: border-box;
+}
+
+.bmission{
+    padding-bottom:2px;
+    border-bottom:1px solid gray;
+    margin-bottom:3px;
+}
+
+.sbitem{
+    padding-left: 10px;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    display:inline-block;
+    border-left: 6px solid black;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.blink{
+    display:inline-block;
+    padding-bottom:10px;
+    margin-left:5px;
+}
+
+.blogtitle{
+    font-family:"Meiryo UI";
+    border-left:8px black solid;
+    padding-left:10px;
+    padding-bottom:5px;
+}
+
+.content{
+    margin-left:10px;
+    padding:20px;
+    
+    width:80%;
+    border:1px black solid;
+    box-sizing: border-box;
+}
+
+.kwinput{
+    margin:10px;
+}
+
+.syukihyo{
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.nazotitle1{
+    background-color:rgb(129, 152, 255);
+    border-radius:5px;
+    padding:5px;
+    padding-left:10px;
+    color:white;
+    width:185px;
+}
+
+.nazotitle2{
+    background-color:rgb(255, 196, 129);
+    border-radius:5px;
+    padding:5px;
+    padding-left:10px;
+    color:white;
+    width:185px;
+}
+
+.nazotitle3{
+    background-color:rgb(129, 255, 150);
+    border-radius:5px;
+    padding:5px;
+    padding-left:10px;
+    color:white;
+    width:185px;
+}
+
+.nazo{
+    width:70%;
+}
+
+.nazo9{
+    cursor:wait;
+}
+
+.wai{
+    cursor:wait;
+}
+
+.tizu{
+    width:605px;
+}
+
+.pass{
+    color:red;
+    z-index:-5;
+    position:absolute;
+    top:20px;
+}
+
+.basyo p{
+    font-size:12px;
+    margin-bottom:5px;
+}
+
+.date{
+    text-align: right;
+    font-family:"Arial";
+    font-weight:bold;
+}
+
+.footer{
+    font-size:13px;
+    padding-top:20px;
+    padding-left:70px;
+    height:150px;
+    color:white;
+    background:black;
+    width:100%;
+}
+
+.bd{
+    font-weight:bold;
+}
+
+ul {
+    padding-left:0;
+    list-style:none;
+}
+
+.commentformarea{
+    margin-top:20px;
+}
+
+.commentform{
+    margin-top:20px;
+    border:1px solid #ccc;
+    padding:10px;
+    font-size:13px;
+    font-family:sans-serif;
+}
+
+.commentform .item{
+    display:block;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+
+.commentform .item.no-label{
+    padding:5px 0px 5px 60px;
+}
+
+.commentform .item .label{
+    float:left;
+    padding:5px;
+    margin:0;
+}
+
+.commentform .item textarea{
+    display:block;
+    margin-left:60px;
+    padding:5px;
+    border:1px solid black;
+    box-sizing:border-box;
+    font-size:13px;
+}
+
+.commentform .item input[type=text],
+.commentform .item textarea {
+  display: block;
+  margin-left: 60px;
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.csubmit {
+    border: none;
+    outline: none;
+    display: block;
+    line-height: 30px;
+    width: 160px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    background-color: #696;
+    border-bottom: 4px solid #464;
+    cursor:pointer;
+  
+    box-sizing: content-box;
+    transition:0.3s ease all
+  }
+
+.csubmit:hover{
+    border-bottom-width:0;
+    transform:translateY(4px)
+  }
+
+.zou{
+    width:100px;
+    height:100px;
+}

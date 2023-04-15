@@ -1,0 +1,65 @@
+.space{
+    padding:500px;
+}
+
+@font-face{
+    font-family: 'onryou';
+    src: url("../fonts/onryou.TTF") format('truetype');
+}
+
+body{
+    font-family:'onryou',sans-serif;
+    background-image: url('../images/horror_red.jpg')
+}
+
+.content{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin:150px 80px 0 80px;
+}
+
+p {
+    margin-bottom:800px;
+}
+
+.finale{
+    margin-bottom:100px;
+}
+
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 1.2s;
+}
+   
+  .fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+  }
+
+.inputarea{
+    margin-bottom:200px;
+}
+
+.nameinput{
+    border: none;
+    width: 70%;
+    font-size: 24px;
+    font-family: 'onryou';
+    background-color: #7a6a6af5;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.inputbtn{
+    padding: 5px;
+    color: white;
+    font-family: 'onryou';
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: -30px;
+    background-color: black;
+}
+

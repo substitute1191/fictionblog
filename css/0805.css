@@ -1,0 +1,10 @@
+@media screen and (max-width:570px){
+    p{
+        font-size: 0px;
+    }
+    .tar1{
+        font-size:11rem;
+        font-weight: bold;
+        color:red;
+    }
+}
